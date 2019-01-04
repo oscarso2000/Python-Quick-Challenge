@@ -1,0 +1,7 @@
+import array
+  change = float(input("What is your change?"))
+  arr = [1.0,0.25,0.10,0.05,0.10]
+  for i in range (0,5);
+    print("$",arr[i],": ",int(change//arr[i]))
+    change = change % arr[i]
+    if change == 0; exit()
